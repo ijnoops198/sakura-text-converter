@@ -1,0 +1,18 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+# 'atom-workspace':
+#   'ctrl-alt-o': 'sakura-text-converter:wideToHalf'
+#   'ctrl-alt-o': 'sakura-text-converter:halfWithWideWithHiraganaToWideKana'
+#   'ctrl-alt-o': 'sakura-text-converter:halfWithWideWithKanaToHiragana'
+#   'ctrl-alt-o': 'sakura-text-converter:wideAlphabetWithNumberToHalfAlphabetWithNumber'
+#   'ctrl-alt-o': 'sakura-text-converter:halfAlphabetWithNumberToWideAlphabetWithNumber'
+#   'ctrl-alt-o': 'sakura-text-converter:wideKanaToHalfKana'
+#   'ctrl-alt-o': 'sakura-text-converter:halfKanaToWideKana'
+#   'ctrl-alt-o': 'sakura-text-converter:halfKanaToHiragana'

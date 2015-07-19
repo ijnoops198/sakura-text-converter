@@ -1,0 +1,27 @@
+{
+  "name": "sakura-text-converter",
+  "main": "./lib/sakura-text-converter",
+  "version": "0.0.0",
+  "description": "This package is a text converter like the Sakura Editor.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "sakura-text-converter:wideToHalf",
+      "sakura-text-converter:halfWithWideWithHiraganaToWideKana",
+      "sakura-text-converter:halfWithWideWithKanaToHiragana",
+      "sakura-text-converter:wideAlphabetWithNumberToHalfAlphabetWithNumber",
+      "sakura-text-converter:halfAlphabetWithNumberToWideAlphabetWithNumber",
+      "sakura-text-converter:wideKanaToHalfKana",
+      "sakura-text-converter:halfKanaToWideKana",
+      "sakura-text-converter:halfKanaToHiragana"
+    ]
+  },
+  "repository": "https://github.com/ijnoops198/sakura-text-converter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "readme": "# Sakura Text Converter\n\nThis package is a text converter like the Sakura Editor.\n\n![A screenshot](https://github.com/ijnoops198/sakura-text-converter/raw/master/screenshot.gif)\n",
+  "readmeFilename": "README.md",
+  "dependencies": {}
+}

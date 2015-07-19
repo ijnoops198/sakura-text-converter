@@ -1,0 +1,84 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    'label': 'Convert'
+    'submenu': [
+      {
+        'label': '全角→半角'
+        'command': 'sakura-text-converter:wideToHalf'
+      },
+      {
+        'label': '半角+全角ひら→全角・カタカナ'
+        'command': 'sakura-text-converter:halfWithWideWithHiraganaToWideKana'
+      },
+      {
+        'label': '半角+全角カタ→全角・ひらがな'
+        'command': 'sakura-text-converter:halfWithWideWithKanaToHiragana'
+      },
+      {
+        'label': '全角英数→半角英数'
+        'command': 'sakura-text-converter:wideAlphabetWithNumberToHalfAlphabetWithNumber'
+      },
+      {
+        'label': '半角英数→全角英数'
+        'command': 'sakura-text-converter:halfAlphabetWithNumberToWideAlphabetWithNumber'
+      },
+      {
+        'label': '全角カタカナ→半角カタカナ'
+        'command': 'sakura-text-converter:wideKanaToHalfKana'
+      },
+      {
+        'label': '半角カタカナ→全角カタカナ'
+        'command': 'sakura-text-converter:halfKanaToWideKana'
+      },
+      {
+        'label': '半角カタカナ→ひらがな'
+        'command': 'sakura-text-converter:halfKanaToHiragana'
+      }
+    ]
+  ]
+'menu': [
+  {
+    'label': 'Edit'
+    'submenu': [
+      'label': 'Text'
+      'submenu': [
+        {
+          'type': 'separator'
+        },
+        {
+          'label': '全角→半角'
+          'command': 'sakura-text-converter:wideToHalf'
+        },
+        {
+          'label': '半角+全角ひら→全角・カタカナ'
+          'command': 'sakura-text-converter:halfWithWideWithHiraganaToWideKana'
+        },
+        {
+          'label': '半角+全角カタ→全角・ひらがな'
+          'command': 'sakura-text-converter:halfWithWideWithKanaToHiragana'
+        },
+        {
+          'label': '全角英数→半角英数'
+          'command': 'sakura-text-converter:wideAlphabetWithNumberToHalfAlphabetWithNumber'
+        },
+        {
+          'label': '半角英数→全角英数'
+          'command': 'sakura-text-converter:halfAlphabetWithNumberToWideAlphabetWithNumber'
+        },
+        {
+          'label': '全角カタカナ→半角カタカナ'
+          'command': 'sakura-text-converter:wideKanaToHalfKana'
+        },
+        {
+          'label': '半角カタカナ→全角カタカナ'
+          'command': 'sakura-text-converter:halfKanaToWideKana'
+        },
+        {
+          'label': '半角カタカナ→ひらがな'
+          'command': 'sakura-text-converter:halfKanaToHiragana'
+        }
+      ]
+    ]
+  }
+]
